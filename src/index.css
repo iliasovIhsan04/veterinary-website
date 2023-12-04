@@ -1,1 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy, sans-serif;
+}
 
+:root {
+  --green: #14ae5c;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+input:disabled {
+  background: transparent;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+.container {
+  max-width: 1140px !important;
+  width: 90% !important;
+  margin: 0 auto !important;
+}
