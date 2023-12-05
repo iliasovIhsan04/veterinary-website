@@ -54,47 +54,85 @@ const Header = () => {
         </div>
       </div>
       <div className="container">
-        <div className="header_nav_block">
-          <a href="/#">
-            Главная <MdKeyboardArrowDown size={20} />
-          </a>
-          <div className="block_hover">
-            <div className="a">
+        <ul className="header_nav_block">
+          <li>
+            <a href="/#">
+              Главная <MdKeyboardArrowDown size={20} />
+            </a>
+          </li>
+          <div className="header_content_menu">
+            <li>
               <a href="/#">
                 О КНАУ <MdKeyboardArrowDown size={20} />
               </a>
-            </div>
-            <div className="hover_active">
-              <a href="#">
-                О нас <MdArrowForwardIos className="mt" size={15} />
-              </a>
-              <a href="#">
-                Руководство <MdArrowForwardIos className="mt" size={15} />
-              </a>
-              <a href="#">
-                Миссия КНАУ <MdArrowForwardIos className="mt" size={15} />
-              </a>
-              <a href="#">
-                Структура <MdArrowForwardIos className="mt" size={15} />
-              </a>
+            </li>
+            <div className="drop_header">
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
+              <a href="#">ijjj</a>
             </div>
           </div>
-          <a href="/#">
-            Образование <MdKeyboardArrowDown size={20} />
-          </a>
-          <a href="/#">
-            Абитуриентам <MdKeyboardArrowDown size={20} />
-          </a>
-          <a href="/#">
-            Студентам <MdKeyboardArrowDown size={20} />
-          </a>
-          <a href="/#">
-            Сотруничество <MdKeyboardArrowDown size={20} />
-          </a>
-          <a href="/#">
-            Учобное подразделения <MdKeyboardArrowDown size={20} />
-          </a>
-        </div>
+          <div className="header_content_menu">
+            <li>
+              <a href="/#">
+                Образование <MdKeyboardArrowDown size={20} />
+              </a>
+            </li>
+            <div className="drop_header">
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
+              <a href="#">ijjj</a>
+            </div>
+          </div>
+          <div className="header_content_menu">
+            <li>
+              <a href="/#">
+                Абитуриентам <MdKeyboardArrowDown size={20} />
+              </a>
+            </li>
+            <div className="drop_header">
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
+              <a href="#">ijjj</a>
+            </div>
+          </div>
+          <div className="header_content_menu">
+            <li>
+              <a href="/#">
+                Студентам <MdKeyboardArrowDown size={20} />
+              </a>
+            </li>
+            <div className="drop_header">
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
+              <a href="#">ijjj</a>
+            </div>
+          </div>
+          <div className="header_content_menu">
+            <li>
+              <a href="/#">
+                Сотруничество <MdKeyboardArrowDown size={20} />
+              </a>
+            </li>
+            <div className="drop_header">
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
+              <a href="#">ijjj</a>
+            </div>
+          </div>
+          <div className="header_content_menu">
+            <li>
+              <a href="/#">
+                Учобное подразделения <MdKeyboardArrowDown size={20} />
+              </a>
+            </li>
+            <div className="drop_header">
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
+              <a href="#">ijjj</a>
+            </div>
+          </div>
+        </ul>
       </div>
     </div>
   );

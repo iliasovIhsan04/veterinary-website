@@ -4,10 +4,6 @@
   box-sizing: border-box;
   font-family: Gilroy, sans-serif;
 }
-
-:root {
-  --green: #14ae5c;
-}
 li {
   list-style: none;
 }

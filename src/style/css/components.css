@@ -72,30 +72,31 @@
   cursor: pointer;
   color: #333;
 }
-.block_hover {
-  position: relative;
+.header_nav_block li > a:hover {
+  color: #35a22b;
 }
-.block_hover .a:hover + .hover_active {
-  opacity: 1; 
-  transition: opacity 0.5s; 
+.header_nav_block li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 0;
 }
-
-.hover_active {
-  opacity: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  background: #333;
-  width: 200px;
-  padding: 20px;
-  transition: 0.5s;
+.header_nav_block li:hover {
+  border-bottom: 2px solid #35a22b;
 }
-.hover_active a{
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0 0 30px 0;
-}
-.mt{
+.mt {
   margin-left: 15px;
+}
+.drop_header {
+  display: none;
+  position: absolute;
+  float: left;
+  min-width: 200px;
+  min-height: 220px;
+  background: red;
+}
+.drop_header a:hover {
+  background-color: blue;
+}
+.header_content_menu:hover > .drop_header {
+  display: block;
 }
