@@ -67,7 +67,9 @@ const Header = () => {
               </a>
             </li>
             <div className="drop_header">
-              <a href="#">Amazon</a>
+              <div>
+                <a href="#">Amazon</a>
+              </div>
               <a href="#">Ihsan</a>
               <a href="#">ijjj</a>
             </div>
