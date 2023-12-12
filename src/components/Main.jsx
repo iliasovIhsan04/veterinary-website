@@ -1,9 +1,12 @@
 import React from "react";
+import SliderPage from "../pages/SliderPage";
 
 const Main = () => {
   return (
     <div className="main">
-      <div className="container"></div>
+      <div className="container">
+        <SliderPage />
+      </div>
     </div>
   );
 };

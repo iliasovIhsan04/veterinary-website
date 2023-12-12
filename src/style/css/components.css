@@ -59,7 +59,7 @@
 }
 .header_nav_block {
   width: 100%;
-  height: 80px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,7 +74,7 @@
 }
 .header_nav_block li > a {
   height: 100%;
-  padding: 10px 0 10px 0;
+  padding: 15px 0 15px 0;
 }
 .header_nav_block li > a:hover {
   color: #35a22b;
@@ -95,14 +95,15 @@
   min-height: 220px;
   background: blueviolet;
   transform: 0.5s;
-  padding: 10px;
   font-size: 15px;
 }
 .drop_header > a {
-  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
 }
 .drop_header a:hover {
-  background-color: rgb(222, 133, 133);
+  background-color: #35a22b;
 }
 .header_content_menu:hover > .drop_header {
   display: block;
