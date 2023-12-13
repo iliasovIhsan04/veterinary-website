@@ -2,3 +2,8 @@
   color: #fff;
   font-size: 25px;
 }
+.btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+}

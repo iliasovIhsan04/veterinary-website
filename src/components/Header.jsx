@@ -69,7 +69,9 @@ const Header = () => {
             <div className="drop_header">
               <a href="#">Amazon</a>
               <a href="#">Ihsan</a>
-              <a href="#">ijjj</a>
+              <a href="#">Ihsan</a>
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
             </div>
           </div>
           <div className="header_content_menu">
@@ -81,7 +83,9 @@ const Header = () => {
             <div className="drop_header">
               <a href="#">Amazon</a>
               <a href="#">Ihsan</a>
-              <a href="#">ijjj</a>
+              <a href="#">Ihsan</a>
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
             </div>
           </div>
           <div className="header_content_menu">
@@ -93,7 +97,9 @@ const Header = () => {
             <div className="drop_header">
               <a href="#">Amazon</a>
               <a href="#">Ihsan</a>
-              <a href="#">ijjj</a>
+              <a href="#">Ihsan</a>
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
             </div>
           </div>
           <div className="header_content_menu">
@@ -117,7 +123,9 @@ const Header = () => {
             <div className="drop_header">
               <a href="#">Amazon</a>
               <a href="#">Ihsan</a>
-              <a href="#">ijjj</a>
+              <a href="#">Ihsan</a>
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
             </div>
           </div>
           <div className="header_content_menu">
@@ -129,7 +137,9 @@ const Header = () => {
             <div className="drop_header">
               <a href="#">Amazon</a>
               <a href="#">Ihsan</a>
-              <a href="#">ijjj</a>
+              <a href="#">Ihsan</a>
+              <a href="#">Amazon</a>
+              <a href="#">Ihsan</a>
             </div>
           </div>
         </ul>
