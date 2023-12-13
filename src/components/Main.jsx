@@ -1,6 +1,7 @@
 import React from "react";
 import SliderPage from "../pages/SliderPage";
 import NewsPage from "../pages/NewsPage";
+import OurFaculties from "../pages/OurFaculties";
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <div className="container">
         <SliderPage />
         <NewsPage />
+        <OurFaculties />
       </div>
     </div>
   );

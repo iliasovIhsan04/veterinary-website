@@ -47,7 +47,7 @@ const NewsPage = () => {
   return (
     <div className="news_page">
       <div className="news_title_block">
-        <h3>Последние новости</h3>
+        <h3 className="title">Последние новости</h3>
         <button className="btn news_btn">Больше новостей..</button>
       </div>
       <div className="news_block_all">
