@@ -5,10 +5,9 @@
 .btn {
   border: none;
   cursor: pointer;
-  background: none;
 }
 .title {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
-  color: #404041;
+  color: #000000;
 }

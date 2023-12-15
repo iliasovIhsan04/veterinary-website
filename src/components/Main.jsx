@@ -2,6 +2,7 @@ import React from "react";
 import SliderPage from "../pages/SliderPage";
 import NewsPage from "../pages/NewsPage";
 import OurFaculties from "../pages/OurFaculties";
+import AboutTheClinck from "../pages/AboutTheClinck";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
         <SliderPage />
         <NewsPage />
         <OurFaculties />
+        <AboutTheClinck />
       </div>
     </div>
   );
