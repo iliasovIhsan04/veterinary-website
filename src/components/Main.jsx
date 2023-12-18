@@ -3,6 +3,7 @@ import SliderPage from "../pages/SliderPage";
 import NewsPage from "../pages/NewsPage";
 import OurFaculties from "../pages/OurFaculties";
 import AboutTheClinck from "../pages/AboutTheClinck";
+import OurPartners from "../pages/OurPartners";
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
         <NewsPage />
         <OurFaculties />
         <AboutTheClinck />
+        <OurPartners />
       </div>
     </div>
   );
